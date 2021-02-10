@@ -1,0 +1,18 @@
+#jb {
+	margin-top: 10em;
+	letter-spacing: 2px;
+}
+body {
+	background: url(https://media.unreel.me/prod/popcornflix/home-movie/3b4e61ec-6845-485e-8a4a-3ec1c036700d);
+	background-size: cover;
+}
+
+.jumbotron {
+	background-color: rgba(233, 236, 239, 0.95);
+	padding-bottom: 3rem !important;
+	/* padding-top: 2rem !important; */
+}
+
+input {
+	outline: none !important;
+}

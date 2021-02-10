@@ -1,0 +1,15 @@
+<%- include("partials/header") %>
+
+<div class="container d-flex justify-content-center text-center" id="jb">
+    <div class="jumbotron">
+        <h1 class="display-4"><span><i class="fas fa-search"></i></span> Search Movies & TV Shows</h1>
+        <div class="container">
+            <form action="/results" method="GET" class="pt-4">
+                <input class="form-control mx-auto" type="search" placeholder="Search here..." name = "search" minlength="3" required autocomplete="off">
+                <button type="submit" class="btn btn-primary mt-4">Search</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<%- include("partials/footer") %>
